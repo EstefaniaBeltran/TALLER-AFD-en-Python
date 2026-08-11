@@ -72,7 +72,10 @@ El programa recibe dos archivos como parámetros:
 
 ### Punto A
 
+```bash
 python3 adf.py conf_a.txt cadena_a.txt
+
+```
 
 
 ### Punto B
