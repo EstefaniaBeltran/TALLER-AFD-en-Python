@@ -140,37 +140,5 @@ La implementación permite utilizar un mismo programa para configurar y evaluar 
 
 De esta manera, el programa puede determinar para cada cadena si esta es aceptada o rechazada de acuerdo con las transiciones y estados definidos para cada ejercicio.
 
-````
 
-### 📌 Importante antes de pegarlo
-
-Para que las imágenes de resultados aparezcan en GitHub, debes tenerlas realmente así:
-
-```text
-PUNTO A/
-└── resultado_a.png
-
-PUNTO B/
-└── resultado_b.png
-
-PUNTO C/
-└── resultado_c.png
-
-PUNTO D/
-└── resultado_d.png
-````
-
-Y el `AFD.py` y `README.md` deben estar **afuera de las cuatro carpetas**, al mismo nivel:
-
-```text
-TRABAJO/
-│
-├── AFD.py
-├── README.md
-│
-├── PUNTO A/
-├── PUNTO B/
-├── PUNTO C/
-└── PUNTO D/
-```
 
