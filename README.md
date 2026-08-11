@@ -72,26 +72,28 @@ El programa recibe dos archivos como parámetros:
 
 ### Punto A
 
-```bash
-python3 AFD.py PUNTO\ A/conf_a.txt PUNTO\ A/cadena_a.txt
-````
+python3 adf.py conf_a.txt cadena_a.txt
+
 
 ### Punto B
 
 ```bash
-python3 AFD.py PUNTO\ B/conf_b.txt PUNTO\ B/cadena_b.txt
+python3 adf.py conf_b.txt cadena_b.txt
+
 ```
 
 ### Punto C
 
 ```bash
-python3 AFD.py PUNTO\ C/conf_c.txt PUNTO\ C/cadena_c.txt
+python3 adf.py conf_c.txt cadena_c.txt
+
 ```
 
 ### Punto D
 
 ```bash
-python3 AFD.py PUNTO\ D/conf_d.txt PUNTO\ D/cadena_d.txt
+python3 adf.py conf_d.txt cadena_d.txt
+
 ```
 
 ## Funcionamiento del programa
