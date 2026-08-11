@@ -1,0 +1,8 @@
+# Ejercicio a: (a|b)*
+estados=q0
+alfabeto=a,b
+inicial=q0
+finales=q0
+transiciones=
+q0,a,q0
+q0,b,q0
