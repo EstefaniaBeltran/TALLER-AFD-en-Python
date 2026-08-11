@@ -1,5 +1,4 @@
 
-````markdown
 # Autómatas Finitos Deterministas (AFD)
 
 ## Descripción
