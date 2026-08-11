@@ -4,11 +4,17 @@ Yeimy Estefanía Beltrán Sandoval - Camilo Andrés Bernal Bernal - Yeisson Stiv
 
 ## Descripción
 
-En este trabajo se implementa un programa en Python para configurar y probar Autómatas Finitos Deterministas (AFD).
+En este trabajo se implementa un programa en Python para configurar y probar
+Autómatas Finitos Deterministas (AFD).
 
-El programa `AFD.py` recibe como parámetros un archivo de configuración y un archivo de cadenas. A partir de la información de configuración, procesa cada cadena y determina si es aceptada o rechazada por el autómata correspondiente.
+El programa `AFD.py` recibe como parámetros un archivo de configuración y un
+archivo que contiene las cadenas de prueba.
 
-Se utiliza un solo programa `AFD.py` para los cuatro ejercicios.
+## Enunciado
+
+Los ejercicios propuestos para la implementación de los autómatas son los siguientes:
+
+![Enunciado de los ejercicios](imagenes/enunciado.png)
 
 ## Organización del proyecto
 
