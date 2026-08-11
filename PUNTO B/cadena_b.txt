@@ -1,0 +1,10 @@
+# Cadena del ejercicio (obligatoria)
+ababbab
+# Cadenas adicionales de prueba
+
+aaaa
+bbbb
+abab
+bababab
+aabba
+ababc
