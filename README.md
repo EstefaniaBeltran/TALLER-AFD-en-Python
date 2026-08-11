@@ -126,19 +126,19 @@ Las pruebas de cada uno de los ejercicios fueron realizadas desde la terminal.
 
 ### Punto A
 
-![Resultado Punto A](PUNTO%20A/resultado_a.png)
+![Resultado Punto A](imagenes/resultado_a.png)
 
 ### Punto B
 
-![Resultado Punto B](PUNTO%20B/resultado_b.png)
+![Resultado Punto B](imagenes/resultado_b.png)
 
 ### Punto C
 
-![Resultado Punto C](PUNTO%20C/resultado_c.png)
+![Resultado Punto C](imagenes/resultado_c.png)
 
 ### Punto D
 
-![Resultado Punto D](PUNTO%20D/resultado_d.png)
+![Resultado Punto D](imagenes/resultado_d.png)
 
 ## Conclusión
 
