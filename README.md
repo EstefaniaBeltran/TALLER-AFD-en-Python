@@ -1,5 +1,8 @@
 
 # Autómatas Finitos Deterministas (AFD)
+Yeimy Estefanía Beltrán Sandoval
+Camilo Andrés Bernal Bernal
+Yeisson Stiven Rincón Cubillos
 
 ## Descripción
 
