@@ -1,33 +1,65 @@
+
+````markdown
 # Autómatas Finitos Deterministas (AFD)
 
 ## Descripción
 
-Este proyecto consiste en la implementación de un programa en Python para trabajar con Autómatas Finitos Deterministas (AFD).
+En este trabajo se implementa un programa en Python para configurar y probar Autómatas Finitos Deterministas (AFD).
 
-El programa recibe como parámetros un archivo de configuración y un archivo que contiene las cadenas de prueba. A partir de la configuración, construye la información necesaria del autómata y posteriormente procesa cada cadena para determinar si es aceptada o rechazada.
+El programa `AFD.py` recibe como parámetros un archivo de configuración y un archivo de cadenas. A partir de la información de configuración, procesa cada cadena y determina si es aceptada o rechazada por el autómata correspondiente.
 
-Se utiliza un solo programa `AFD.py` para realizar las pruebas de los cuatro ejercicios.
+Se utiliza un solo programa `AFD.py` para los cuatro ejercicios.
 
-## Archivos del proyecto
+## Organización del proyecto
 
-El proyecto está compuesto por los siguientes archivos:
+El trabajo está organizado en cuatro carpetas, una para cada ejercicio:
 
-- `AFD.py`: programa principal que lee la configuración y procesa las cadenas.
-- `conf_a.txt`: configuración del ejercicio A.
-- `conf_b.txt`: configuración del ejercicio B.
-- `conf_c.txt`: configuración del ejercicio C.
-- `conf_d.txt`: configuración del ejercicio D.
-- `cadena_a.txt`: cadenas de prueba del ejercicio A.
-- `cadena_b.txt`: cadenas de prueba del ejercicio B.
-- `cadena_c.txt`: cadenas de prueba del ejercicio C.
-- `cadena_d.txt`: cadenas de prueba del ejercicio D.
+### PUNTO A
+
+Contiene:
+
+- `conf_a.txt`: archivo de configuración del autómata.
+- `cadena_a.txt`: archivo con las cadenas de prueba.
+- `Diagrama_estados_a.png`: diagrama de estados.
+- `definicion a.png`: definición del ejercicio.
+- `resultado_a.png`: captura del resultado de la ejecución.
+
+### PUNTO B
+
+Contiene:
+
+- `conf_b.txt`: archivo de configuración del autómata.
+- `cadena_b.txt`: archivo con las cadenas de prueba.
+- `Diagrama_estados_b.png`: diagrama de estados.
+- `definicion b.png`: definición del ejercicio.
+- `resultado_b.png`: captura del resultado de la ejecución.
+
+### PUNTO C
+
+Contiene:
+
+- `conf_c.txt`: archivo de configuración del autómata.
+- `cadena_c.txt`: archivo con las cadenas de prueba.
+- `Diagrama_estados_c.png`: diagrama de estados.
+- `definicion c.png`: definición del ejercicio.
+- `resultado_c.png`: captura del resultado de la ejecución.
+
+### PUNTO D
+
+Contiene:
+
+- `conf_d.txt`: archivo de configuración del autómata.
+- `cadena_d.txt`: archivo con las cadenas de prueba.
+- `Diagrama_estados_d.png`: diagrama de estados.
+- `definicion d.png`: definición del ejercicio.
+- `resultado_d.png`: captura del resultado de la ejecución.
 
 ## Requisitos
 
 Para ejecutar el programa se necesita:
 
 - Python 3
-- Terminal o consola de comandos
+- Una terminal o consola de comandos.
 
 No se utilizan librerías externas.
 
@@ -35,10 +67,111 @@ No se utilizan librerías externas.
 
 El programa recibe dos archivos como parámetros:
 
-1. Archivo de configuración del AFD.
-2. Archivo de cadenas que serán evaluadas.
+1. El archivo de configuración del AFD.
+2. El archivo que contiene las cadenas de prueba.
 
-### Ejercicio A
+### Punto A
 
 ```bash
-python3 AFD.py conf_a.txt cadena_a.txt
+python3 AFD.py PUNTO\ A/conf_a.txt PUNTO\ A/cadena_a.txt
+````
+
+### Punto B
+
+```bash
+python3 AFD.py PUNTO\ B/conf_b.txt PUNTO\ B/cadena_b.txt
+```
+
+### Punto C
+
+```bash
+python3 AFD.py PUNTO\ C/conf_c.txt PUNTO\ C/cadena_c.txt
+```
+
+### Punto D
+
+```bash
+python3 AFD.py PUNTO\ D/conf_d.txt PUNTO\ D/cadena_d.txt
+```
+
+## Funcionamiento del programa
+
+El programa realiza los siguientes pasos:
+
+1. Recibe los archivos mediante la terminal.
+2. Lee el archivo de configuración.
+3. Obtiene los estados del autómata.
+4. Obtiene el alfabeto.
+5. Identifica el estado inicial.
+6. Identifica los estados de aceptación.
+7. Lee las transiciones.
+8. Lee las cadenas de prueba.
+9. Recorre cada cadena carácter por carácter.
+10. Realiza las transiciones correspondientes entre estados.
+11. Comprueba si la cadena termina en un estado de aceptación.
+12. Muestra si la cadena fue `ACEPTADA` o `RECHAZADA`.
+
+El programa también ignora las líneas que comienzan con `#`, utilizadas como comentarios en los archivos.
+
+Las líneas vacías de los archivos de cadenas representan la cadena vacía (ε).
+
+## Resultados
+
+Las pruebas de cada uno de los ejercicios fueron realizadas desde la terminal.
+
+### Punto A
+
+![Resultado Punto A](PUNTO%20A/resultado_a.png)
+
+### Punto B
+
+![Resultado Punto B](PUNTO%20B/resultado_b.png)
+
+### Punto C
+
+![Resultado Punto C](PUNTO%20C/resultado_c.png)
+
+### Punto D
+
+![Resultado Punto D](PUNTO%20D/resultado_d.png)
+
+## Conclusión
+
+La implementación permite utilizar un mismo programa para configurar y evaluar diferentes Autómatas Finitos Deterministas mediante archivos de configuración y archivos de cadenas de prueba.
+
+De esta manera, el programa puede determinar para cada cadena si esta es aceptada o rechazada de acuerdo con las transiciones y estados definidos para cada ejercicio.
+
+````
+
+### 📌 Importante antes de pegarlo
+
+Para que las imágenes de resultados aparezcan en GitHub, debes tenerlas realmente así:
+
+```text
+PUNTO A/
+└── resultado_a.png
+
+PUNTO B/
+└── resultado_b.png
+
+PUNTO C/
+└── resultado_c.png
+
+PUNTO D/
+└── resultado_d.png
+````
+
+Y el `AFD.py` y `README.md` deben estar **afuera de las cuatro carpetas**, al mismo nivel:
+
+```text
+TRABAJO/
+│
+├── AFD.py
+├── README.md
+│
+├── PUNTO A/
+├── PUNTO B/
+├── PUNTO C/
+└── PUNTO D/
+```
+
