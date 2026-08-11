@@ -21,7 +21,7 @@ Contiene:
 - `conf_a.txt`: archivo de configuración del autómata.
 - `cadena_a.txt`: archivo con las cadenas de prueba.
 - `Diagrama_estados_a.png`: diagrama de estados.
-- `definicion a.png`: definición del ejercicio.
+- `definicion a.png`: tabla de transición y definición formal del AFD.
 - `resultado_a.png`: captura del resultado de la ejecución.
 
 ### PUNTO B
@@ -31,7 +31,7 @@ Contiene:
 - `conf_b.txt`: archivo de configuración del autómata.
 - `cadena_b.txt`: archivo con las cadenas de prueba.
 - `Diagrama_estados_b.png`: diagrama de estados.
-- `definicion b.png`: definición del ejercicio.
+- `definicion b.png`: tabla de transición y definición formal del AFD.
 - `resultado_b.png`: captura del resultado de la ejecución.
 
 ### PUNTO C
@@ -41,7 +41,7 @@ Contiene:
 - `conf_c.txt`: archivo de configuración del autómata.
 - `cadena_c.txt`: archivo con las cadenas de prueba.
 - `Diagrama_estados_c.png`: diagrama de estados.
-- `definicion c.png`: definición del ejercicio.
+- `definicion c.png`: tabla de transición y definición formal del AFD.
 - `resultado_c.png`: captura del resultado de la ejecución.
 
 ### PUNTO D
@@ -51,7 +51,7 @@ Contiene:
 - `conf_d.txt`: archivo de configuración del autómata.
 - `cadena_d.txt`: archivo con las cadenas de prueba.
 - `Diagrama_estados_d.png`: diagrama de estados.
-- `definicion d.png`: definición del ejercicio.
+- `definicion d.png`: tabla de transición y definición formal del AFD.
 - `resultado_d.png`: captura del resultado de la ejecución.
 
 ## Requisitos
