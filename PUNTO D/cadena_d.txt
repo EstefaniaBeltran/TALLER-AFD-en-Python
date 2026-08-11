@@ -1,0 +1,11 @@
+# Cadena del ejercicio (obligatoria)
+ababbab
+# Cadenas que deben ser aceptadas
+
+abb
+aba
+babb
+bbabb
+abbab
+babba
+bbabbbb
